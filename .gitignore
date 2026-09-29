@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Env
+.env
+.env.local
+venv/
+env/
+.venv/
+
+# Models
+models/
+adapters/
+*.safetensors
+*.bin
+
+# Data
+data/legal_docs/*
+data/datasets/*
+!data/legal_docs/.gitkeep
+!data/datasets/.gitkeep
+
+# Logs
+logs/*.log
+!logs/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+kaggle.json
+
+# Local
+hinglish_readme.md
+hf_token.txt
