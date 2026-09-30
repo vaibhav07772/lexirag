@@ -44,3 +44,8 @@ kaggle.json
 # Local
 hinglish_readme.md
 hf_token.txt
+
+# ChromaDB
+data/chroma_db/
+*.sqlite3
+*.pickle
